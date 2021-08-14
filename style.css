@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container2{
+    width: 100%;
+    height: 500px;
+    background-color:rgb(107, 42, 145);
+}
+.imgs{
+    
+    background: url("images/pexels-stein-egil-liland-3408744.jpg") center no-repeat;
+    width: 90vw;
+    height: 600px;
+    background-position:left top;
+    background-size: 1200px 600px;
+    
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: brown; */
+}
+.wrap-para{
+    width: 30%;
+    /* height: 400px; */
+    text-align: center;
+    margin-top: 100px;
+
+}
+.card2{
+    height: 300px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color:white;
+    padding: 30px;
+    align-items: center;
+   
+}
+.icondiv{
+    
+    background-color: purple;
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    text-align: center;
+    padding-top: 7px;
+}
+.card2>p{
+    text-align: center;
+    color: grey;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+
+}
+.learnmore{
+    border-radius: 10px;
+    background-color: yellow;
+    width: 100px;
+    height: 40px;
+    border-color: yellow;
+    border-style: none;
+
+}
+.learnmore:hover{
+    background-color: purple;
+    color: white;
+}
+
+.card3>img{
+    height: 450px;
+    width: 100%;
+
+}
+.card3{
+    width: 25%;
+    height: 700px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.wrapper2{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.card3:hover button{
+    background-color: purple;
+    color: white;
+}
+.card3:hover{
+    background-color: yellow;
+
+}
+.card3>button{
+    border-style: none;
+    background-color: white;
+    width: auto;
+    height: 40px;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.card3{
+    background-color: thistle;
+}
+.card4{
+    padding: 30px;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.border6{
+    border-right: black 1px solid;
+    border-left:black 1px solid ;
+
+}
+.wrapper3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.card4>button{
+    height: 50px;
+    width: 90px;
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+    border-style: none;
+}
+.buy:hover{
+    background-color: purple;
+    color: white;
+}
+.bg1{
+    height: 500px;
+    width: 100%;
+    /* background: chocolate; */
+    /* background-image:"images/pexels-andy-vu-3244513.jpg"; */
+    background: url("images/pexels-asad-photo-maldives-3293148.jpg") no-repeat;
+    background-size: 100% 500px ;
+
+}
+.bg2{
+    height: 500px;
+    width: 100%;
+    /* background-image:"images/pexels-asad-photo-maldives-3293148.jpg"; */
+    background: url("images/pexels-evgeny-tchebotarev-4101555.jpg");
+    background-size: 100% 500px ;
+}
+.bg3{height: 500px;
+    width: 100%;
+    background-image:"images/pexels-evgeny-tchebotarev-4101555.jpg" ;
+    background: url("images/pexels-andy-vu-3244513.jpg");
+    background-size: 100% 500px ;
+}
+.profiles{
+    
+    /* padding: 30px; */
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: darkgray; */
+}
+.proimg{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background:url("images/images\ \(1\).jpg");
+    background-position: center;
+    background-size: 100px 100px;
+    
+    border-radius: 50%;
+
+}
+.inside{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(143, 27, 27, 0.5);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.inside:hover{
+    opacity: 1;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+i{
+    color: white;
+}
+.our-team{
+    margin-left: 250px;
+    padding:50px;
+    display: grid;
+    height: 500px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    /* background-color: chocolate; */
+}
+.newsletter{
+    height: 300px;
+    width: 100%;
+    background: url("images/pexels-kehn-hermano-7148542.jpg") no-repeat;
+    background-size: cover;
+}
+.blog{
+    margin: 20px;
+    height: 500px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.blog>p{
+    text-align: center;
+}
+.blogouter{
+    height:500px ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.fc{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.video{
+    height: 400px;
+    width: 100%;
+    background-color: darkslateblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+}
