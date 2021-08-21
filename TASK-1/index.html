@@ -17,11 +17,23 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <script>
+    function icon(x) {
+        x.classList.toggle("change");
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        }
+        else {
+            x.className = "topnav";
+        }
+    }
+</script> -->
   <title>Document</title>
     
 </head>
 <body>
-    <div style="margin-bottom: 0px;"><nav class="navbar navbar-inverse">
+    <div style="margin-bottom: 0px;"><nav class=" topnav navbar navbar-inverse" id="myTopnav">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -34,7 +46,7 @@
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Project</a></li>
+            <li><a href="#project">Project</a></li>
             <li><a href="#">Pricing</a></li>
               <li><a href="#">Team</a></li>
               <li><a href="#">Blog</a></li>
@@ -128,7 +140,7 @@
 
         </div>
         <h1 style="text-align: center; margin-top: 50px;">Projects</h1>
-        <div class="wrapper2">
+        <div class="wrapper2" id="project">
             <div class="card3">
                 <img src="images/pexels-ksenia-chernaya-5765568.jpg">
                 <h2 style="padding-left: 20px; ">Project Name</h2>
